@@ -1,3 +1,8 @@
+<div class="flash">
+    <% flash.each do |key, value| %>
+        <p class="flash-text"><%= value %></p>
+    <% end %>
+</div>
 <div class="show">
    <p class="show-text">Title:<%= @book.title %></p>
 
@@ -6,4 +11,4 @@
    <%= link_to "Edit", edit_book_path%>
    |
    <%= link_to "Back", books_path %>
-</div> 
+</div>

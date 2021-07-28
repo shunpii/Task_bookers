@@ -8,7 +8,9 @@
   box-sizing: border-box;
 }
 
-.bookers, .books, .bookers-comment, .start, .show, .show-text, .editing {
+
+
+.bookers, .books, .bookers-comment, .start, .show, .show-text, .editing, .flash {
   margin: 33px;
 }
 
@@ -36,6 +38,7 @@ th {
 }
 
 td {
+  font-size: 13px;
   padding: 0 5px 7px 5px;
 }
 
@@ -57,3 +60,32 @@ h2 {
 }
 
 
+.flash-text {
+  margin: 33px;
+  font-size: 13px;
+  color: green;
+}
+
+ul {
+  padding-left: 40px;
+  line-height: 18px;
+  margin: 33px;
+
+}
+
+.error {
+  margin-bottom: 20px;
+  width: 450px;
+  padding: 7px;
+  padding-bottom: 0;
+}
+
+.error-message {
+  font-size: 12px;
+}
+
+li {
+  font-size: 12px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
